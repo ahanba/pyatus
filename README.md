@@ -38,7 +38,7 @@ Outdated functions are removed.
 + XLSX
 
 ## Features
-+ hiatus can automatically convert dictionary forms into possible active forms for English (optional).  
++ pyatus can automatically convert dictionary forms into possible active forms for English (optional).  
   Example: Converts **write** into RegExp **(?:write|writes|writing|wrote|written)**.
 + Simple output report (XLS) that is easy to filter.
 
@@ -50,7 +50,7 @@ Python 3.x.x
 pip install pyatus
 ```
 
-## How to use hiatus?
+## How to use pyatus?
 Fill out the necessary fields in **config.yaml**. 
 
 ```
@@ -71,10 +71,15 @@ p.run_checker()
 #### About config.yaml
 You can find the simple config.yaml in the sample folder.
 ```
+# Specify the folder where fils you want to check are located, and columns to read.
+
 reader:
   folder_path: python/pyatus/sample/target_files
   source_column: "en_US" # column number (integer starting from 0) or header string. Type ("int" or "str") should be the same as target column.
   target_column: "ja_JP" # column number (integer starting from 0) or header string. Type ("int" or "str") should be the same as source column.
+
+
+# Specify True for checks you want to run, paths to read glossary or monolingual files, and source and target languages for spellcheck.
 
 checker:
   source_lang: "en_US"
@@ -92,6 +97,8 @@ checker:
   unsourced: True
   unsourced_rev: False
   length: False
+
+# Specify the path on which error report is generated.
 
 writer:
   output_path: python/pyatus/sample/report
