@@ -71,7 +71,7 @@ p.run_checker()
 #### About config.yaml
 You can find the simple config.yaml in the sample folder.
 ```
-# Specify the folder where fils you want to check are located, and columns to read.
+# Specify the folder where files you want to check are located, and columns to read.
 
 reader:
   folder_path: python/pyatus/sample/target_files
@@ -79,7 +79,7 @@ reader:
   target_column: "ja_JP" # column number (integer starting from 0) or header string. Type ("int" or "str") should be the same as source column.
 
 
-# Specify True for checks you want to run, paths to read glossary or monolingual files, and source and target languages for spellcheck.
+# Specify True for checks you want to run, paths to read glossary and/or monolingual files, and source and target languages for spellcheck.
 
 checker:
   source_lang: "en_US"
