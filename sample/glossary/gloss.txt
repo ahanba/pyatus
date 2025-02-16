@@ -1,0 +1,6 @@
+Server	サーバー	i	だめ
+node	ノード		だめ
+delegate	委譲する	i	だめ
+install	インストール	i	だめ
+data center	でえたせんたあ	i	だめ
+wake up	起きる	i	だめ

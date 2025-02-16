@@ -14,8 +14,8 @@ setup(
             "sample=sample:main",
         ],
     },
-    author="ahanba",
-    description="A translation QA tool",
+    author="Ayumu Hanba",
+    description="A localization QA tool",
     url="https://github.com/ahanba/pyatus",
     packages=find_packages(),
     classifiers=[

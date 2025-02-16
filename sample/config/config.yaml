@@ -1,0 +1,24 @@
+reader:
+  folder_path: python/pyatus/sample/target_files
+  source_column: "en_US" # column number (integer starting from 0) or header string. Type ("int" or "str") should be the same as target column.
+  target_column: "ja_JP" # column number (integer starting from 0) or header string. Type ("int" or "str") should be the same as source column.
+
+checker:
+  source_lang: "en_US"
+  target_lang: "ja_JP"
+  glossary: True
+  glossary_path: python/pyatus/sample/glossary
+  inconsistency_s2t: False
+  inconsistency_t2s: True
+  skip: True
+  identical: False
+  spell: False
+  monolingual: True
+  monolingual_path: python/pyatus/sample/monolingual
+  numbers: True
+  unsourced: True
+  unsourced_rev: False
+  length: False
+
+writer:
+  output_path: python/pyatus/sample/report
