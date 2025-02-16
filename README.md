@@ -1,6 +1,6 @@
 # pyatus
-A Python implementation of [hiatus](https://github.com/ahanba/hiatus).
-Outdated functions are removed.
+Another localization QA tool, which is a Python implementation of [hiatus](https://github.com/ahanba/hiatus).  
+Some outdated functions are removed.  
 
 ## Detectable errors
 + **Glossary**  
