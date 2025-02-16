@@ -1,4 +1,10 @@
 from setuptools import setup, find_packages
+import pathlib
+
+here = pathlib.Path(__file__).parent.resolve()
+
+# Get the long description from the README file
+long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
     name='Pyatus',
@@ -16,11 +22,13 @@ setup(
         ],
     },
     author="Ayumu Hanba",
-    description="A localization QA tool",
+    description="Pyatus is another localization QA tool.",
+    long_description=long_description,
+    long_description_content_type="text/markdown", 
     url="https://github.com/ahanba/pyatus",
     packages=find_packages(),
     classifiers=[
-        "Programming Language :: Python :: 3",
+        "Programming Language :: Python",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ]

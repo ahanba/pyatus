@@ -1,5 +1,5 @@
-# pyatus
-Another localization QA tool, which is a Python implementation of [hiatus](https://github.com/ahanba/hiatus).  
+# Pyatus
+Pyatus is another localization QA tool, which is a Python implementation of [hiatus](https://github.com/ahanba/hiatus).  
 Some outdated functions are removed.  
 
 ## Detectable errors
