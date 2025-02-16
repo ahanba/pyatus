@@ -7,7 +7,8 @@ setup(
         "pyspellchecker",
         "openpyxl",
         "XlsxWriter",
-        "pandas"
+        "pandas",
+        "PyYAML"
     ],
     entry_points={
         "console_scripts": [

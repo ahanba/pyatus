@@ -2,3 +2,4 @@ pyspellchecker>=0.8.2
 openpyxl>=3.1.5
 XlsxWriter>=3.2.2
 pandas>=2.2.3
+PyYAML>=6.0.2
