@@ -56,6 +56,10 @@ Fill out the necessary fields in **config.yaml**.
 ```
 from pyatus import Pyatus
 
+# Generate a Pyatus instance.
+# p = Pyatus(str)
+# str = File path to config.yaml file
+
 p = Pyatus('foo/config.yaml')
 
 # To generate error report -> XLSX file is generated.
