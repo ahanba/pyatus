@@ -1,5 +1,5 @@
-# Pyatus
-Pyatus is another localization QA tool, which is a Python implementation of [hiatus](https://github.com/ahanba/hiatus).  
+# pyatus
+pyatus is another localization QA tool, which is a Python implementation of [hiatus](https://github.com/ahanba/hiatus).  
 Some outdated functions are removed.  
 
 ## Detectable errors
@@ -73,7 +73,7 @@ p.run_checker()
 ```
 
 #### About config.yaml
-You can find the simple config.yaml in the sample folder.
+You can find config.yaml in the sample folder.
 ```
 # Specify the folder where files you want to check are located, and columns to read.
 
@@ -191,10 +191,3 @@ s	not	z	否定文？
 t	Shared Document	#i	Windows のファイル パスはローカライズする（共有ドキュメント）。
 t	[あいうえお]	#	Hiragana left
 ```
-  
-  
-## License
-Copyright &copy; 2025 Ayumu Hanba (ayumuhamba19&lt;at_mark&gt;gmail.com)  
-Distributed under the [GPL License][GPL].
-
-[GPL]: http://www.gnu.org/licenses/gpl.html
