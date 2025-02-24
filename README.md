@@ -46,14 +46,14 @@ Some outdated functions are removed.
 Python 3.x.x
 
 ## Installation
-```
+```python
 pip install pyatus
 ```
 
 ## How to use pyatus?
 Fill out the necessary fields in **config.yaml**. 
 
-```
+```python
 from pyatus import Pyatus
 
 # Generate a Pyatus instance.
